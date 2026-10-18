@@ -1,0 +1,6 @@
+{
+  "name": "Moonbird.Editor",
+  "references": ["Moonbird.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

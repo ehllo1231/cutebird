@@ -1,0 +1,6 @@
+{
+  "name": "Moonbird.Runtime",
+  "rootNamespace": "Moonbird",
+  "references": ["Unity.InputSystem", "Unity.ugui"],
+  "autoReferenced": true
+}
