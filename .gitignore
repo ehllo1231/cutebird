@@ -6,9 +6,16 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# Build output, test results, and captures.
+# Keep the Windows apps used for map editing and playtesting.
+# Ignore other build targets and generated debug data.
 /[Bb]uild/
-/[Bb]uilds/
+/[Bb]uilds/*
+!/[Bb]uilds/Windows/
+!/[Bb]uilds/Windows-Developer/
+/[Bb]uilds/**/*_BurstDebugInformation_DoNotShip/
+/[Bb]uilds/**/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Test results and captures.
 /[Tt]est[Rr]esults/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/

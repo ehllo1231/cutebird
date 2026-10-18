@@ -1,0 +1,2 @@
+# Preserve prebuilt app files exactly, regardless of local line-ending settings.
+Builds/** -text
